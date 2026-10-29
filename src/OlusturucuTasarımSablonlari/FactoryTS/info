@@ -1,3 +1,0 @@
-Framework sistemlerinde, nesneler arası ilişkileri tanımlamak için soyut sınıflar oluşturulur.
-Framework'ler ayrıca tanımlanan bu sınıfların oluşturulumasında kullanılır. Soyut olarak tanımlanmış
-sınıflardan nesneler oluşturmak için Factory tasarım şablonu kullanılır.
