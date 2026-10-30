@@ -109,6 +109,8 @@ diyagramı bulunur.
 Kalıplar amaç değil araçtır. Basit bir `if`'in yettiği yere kalıp eklemek kodu okumayı zorlaştırır.
 Bir kalıbı, çözdüğü **acıyı hissettiğinizde** (tekrarlanan koşullar, sınıf patlamaları, katı
 bağımlılıklar) ya da o esnekliğe ihtiyaç duyulacağından emin olduğunuzda uygulayın.
+Kalıpların gerçek koddan nasıl ortaya çıktığı için [Kalıplara doğru refactoring](refactoring.md),
+aşırı kullanımın neye benzediği için [Anti-pattern'ler](anti-patterns.md) sayfasına bakın.
 
 Pek çok kalıp modern Java'da daha basittir: lambda'lar küçük Strategy/Command sınıflarının yerini
 alır, record'lar değişmez değer nesnelerini kolaylaştırır, sealed interface'ler ve pattern matching

@@ -57,6 +57,7 @@ kategoriler, SOLID, diyagramların okunması, *"hangi kalıbı kullanmalıyım?"
 
 | Rehber | |
 |---|---|
+| **Anti-pattern'ler** | God Object, Singleton istismarı, Service Locator, dağıtık monolit... ve çıkış yolları – [TR](docs/tr/anti-patterns.md) · [EN](docs/en/anti-patterns.md) |
 | **Kalıplara doğru refactoring** | 11 "önce / sonra" örneği: kötü kokan kod, onu düzelten kalıp ve ikisinin aynı davrandığını kanıtlayan testler – [TR](docs/tr/refactoring.md) · [EN](docs/en/refactoring.md) |
 
 ### Oluşturucu (Creational)

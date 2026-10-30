@@ -57,6 +57,7 @@ categories, SOLID, how to read the diagrams, *"which pattern should I use?"* and
 
 | Guide | |
 |---|---|
+| **Anti-patterns** | God Object, Singleton abuse, Service Locator, Distributed Monolith... and the way out – [EN](docs/en/anti-patterns.md) · [TR](docs/tr/anti-patterns.md) |
 | **Refactoring to patterns** | 11 "before / after" examples: the smelly code, the pattern that fixes it, and tests proving both behave the same – [EN](docs/en/refactoring.md) · [TR](docs/tr/refactoring.md) |
 
 ### Creational

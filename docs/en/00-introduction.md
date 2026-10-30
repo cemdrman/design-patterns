@@ -109,6 +109,8 @@ by GitHub.
 Patterns are tools, not goals. Adding a pattern where a simple `if` is enough makes the code harder
 to read. Apply a pattern when you **feel the pain** it solves (duplicated conditionals, class
 explosions, rigid dependencies), or when you are confident that the flexibility will be needed.
+See [Refactoring to patterns](refactoring.md) for how patterns emerge from real code, and
+[Anti-patterns](anti-patterns.md) for what overusing them looks like.
 
 Many patterns are also simpler in modern Java: lambdas replace small Strategy/Command classes,
 records make immutable value objects trivial, and sealed interfaces with pattern matching are an
