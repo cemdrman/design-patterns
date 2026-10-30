@@ -65,6 +65,7 @@ transaction içinde** çalışır; asenkron için `@Async`, commit sonrası çal
 `@TransactionalEventListener`, olayın kaybolmaması gerekiyorsa [Transactional Outbox](microservice/transactional-outbox.md)
 (ör. Spring Modulith) kullanın.
 
+<a id="proxy-self-invocation"></a>
 ## Proxy: `@Cacheable` ve sınıf içi çağrı tuzağı
 
 Spring, gerçek metodu çağırmadan önce cache'e bakan, çalışma zamanında üretilmiş bir alt sınıf

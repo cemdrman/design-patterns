@@ -65,6 +65,7 @@ categories, SOLID, how to read the diagrams, *"which pattern should I use?"* and
 | Guide | |
 |---|---|
 | **Patterns in Spring Boot** | Strategy, Observer, Proxy (`@Cacheable` + the self-invocation pitfall), Decorator, Chain of Responsibility and scopes in a runnable Spring Boot 4 module – [EN](docs/en/spring.md) · [TR](docs/tr/spring.md) |
+| **Interview questions & exercises** | 30 frequently asked questions with answers and 15 hands-on exercises – [EN](docs/en/interview-questions.md) · [TR](docs/tr/interview-questions.md). More Java interview topics: [interview-preparation](https://github.com/cemdrman/interview-preparation) |
 | **Anti-patterns** | God Object, Singleton abuse, Service Locator, Distributed Monolith... and the way out – [EN](docs/en/anti-patterns.md) · [TR](docs/tr/anti-patterns.md) |
 | **Refactoring to patterns** | 11 "before / after" examples: the smelly code, the pattern that fixes it, and tests proving both behave the same – [EN](docs/en/refactoring.md) · [TR](docs/tr/refactoring.md) |
 

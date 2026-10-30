@@ -65,6 +65,7 @@ kategoriler, SOLID, diyagramların okunması, *"hangi kalıbı kullanmalıyım?"
 | Rehber | |
 |---|---|
 | **Spring Boot'ta kalıplar** | Çalıştırılabilir bir Spring Boot 4 modülünde Strategy, Observer, Proxy (`@Cacheable` + sınıf içi çağrı tuzağı), Decorator, Chain of Responsibility ve scope'lar – [TR](docs/tr/spring.md) · [EN](docs/en/spring.md) |
+| **Mülakat soruları ve alıştırmalar** | Cevaplarıyla 30 sık sorulan soru ve 15 uygulamalı alıştırma – [TR](docs/tr/interview-questions.md) · [EN](docs/en/interview-questions.md). Diğer Java mülakat konuları: [interview-preparation](https://github.com/cemdrman/interview-preparation) |
 | **Anti-pattern'ler** | God Object, Singleton istismarı, Service Locator, dağıtık monolit... ve çıkış yolları – [TR](docs/tr/anti-patterns.md) · [EN](docs/en/anti-patterns.md) |
 | **Kalıplara doğru refactoring** | 11 "önce / sonra" örneği: kötü kokan kod, onu düzelten kalıp ve ikisinin aynı davrandığını kanıtlayan testler – [TR](docs/tr/refactoring.md) · [EN](docs/en/refactoring.md) |
 

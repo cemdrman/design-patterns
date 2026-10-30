@@ -65,6 +65,7 @@ transaction** by default; use `@Async` for asynchronous listeners, `@Transaction
 after commit, and the [Transactional Outbox](microservice/transactional-outbox.md) (e.g. Spring Modulith) when
 the event must not be lost.
 
+<a id="proxy-self-invocation"></a>
 ## Proxy: `@Cacheable` and the self-invocation pitfall
 
 Spring injects a generated subclass (`ExchangeRateService$$SpringCGLIB$$0`) that checks the cache
