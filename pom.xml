@@ -11,7 +11,7 @@
 
     <name>Design Patterns</name>
     <description>All 23 GoF design patterns in Java with English and Turkish explanations</description>
-    <url>https://github.com/cemdrman/desingPattern</url>
+    <url>https://github.com/cemdrman/design-patterns</url>
 
     <properties>
         <!-- Java 25: current LTS (Long Term Support) release -->

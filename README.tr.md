@@ -22,8 +22,8 @@ bulunur. Kodlar, sınıf isimleri ve kod içi açıklamalar İngilizcedir; anlat
 ## Çalıştırma
 
 ```bash
-git clone https://github.com/cemdrman/desingPattern.git
-cd desingPattern
+git clone https://github.com/cemdrman/design-patterns.git
+cd design-patterns
 ```
 
 Derleme ve testler:
@@ -93,7 +93,7 @@ kategoriler, SOLID, diyagramların okunması, *"hangi kalıbı kullanmalıyım?"
 ## Proje yapısı
 
 ```text
-desingPattern
+design-patterns
 ├── docs/
 │   ├── en/                      İngilizce anlatımlar
 │   └── tr/                      Türkçe anlatımlar

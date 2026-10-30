@@ -22,8 +22,8 @@ Code, class names and comments are in English; the explanations are available in
 ## Running
 
 ```bash
-git clone https://github.com/cemdrman/desingPattern.git
-cd desingPattern
+git clone https://github.com/cemdrman/design-patterns.git
+cd design-patterns
 ```
 
 Build and run all tests:
@@ -93,7 +93,7 @@ categories, SOLID, how to read the diagrams, *"which pattern should I use?"* and
 ## Project structure
 
 ```text
-desingPattern
+design-patterns
 ├── docs/
 │   ├── en/                      English explanations
 │   └── tr/                      Turkish explanations
