@@ -47,6 +47,13 @@ Tek bir örneği çalıştırmak (Windows'ta `mvnw.cmd`):
 ./mvnw -q compile exec:java -Dexec.mainClass=designpatterns.behavioral.strategy.StrategyDemo
 ```
 
+Spring Boot örnekleri (`spring-boot-examples/` altında ayrı proje):
+
+```bash
+./mvnw -f spring-boot-examples verify
+./mvnw -f spring-boot-examples spring-boot:run
+```
+
 Örnekleri IntelliJ IDEA, Eclipse, VS Code veya NetBeans'te projeyi **Maven projesi olarak açıp**
 ilgili `*Demo` sınıfının `main` metodunu çalıştırarak da deneyebilirsiniz.
 
@@ -57,6 +64,7 @@ kategoriler, SOLID, diyagramların okunması, *"hangi kalıbı kullanmalıyım?"
 
 | Rehber | |
 |---|---|
+| **Spring Boot'ta kalıplar** | Çalıştırılabilir bir Spring Boot 4 modülünde Strategy, Observer, Proxy (`@Cacheable` + sınıf içi çağrı tuzağı), Decorator, Chain of Responsibility ve scope'lar – [TR](docs/tr/spring.md) · [EN](docs/en/spring.md) |
 | **Anti-pattern'ler** | God Object, Singleton istismarı, Service Locator, dağıtık monolit... ve çıkış yolları – [TR](docs/tr/anti-patterns.md) · [EN](docs/en/anti-patterns.md) |
 | **Kalıplara doğru refactoring** | 11 "önce / sonra" örneği: kötü kokan kod, onu düzelten kalıp ve ikisinin aynı davrandığını kanıtlayan testler – [TR](docs/tr/refactoring.md) · [EN](docs/en/refactoring.md) |
 
@@ -135,6 +143,7 @@ design-patterns
 │   ├── common/                  Console (örnek çıktıları), ManualClock (örnek/testlerde zaman yolculuğu)
 │   └── RunAllDemos.java         Bütün örnekleri çalıştırır
 ├── src/test/java/designpatterns Her kalıp için bir JUnit 5 test sınıfı
+├── spring-boot-examples/        Ayrı Spring Boot 4 projesi: Spring'in içindeki kalıplar
 ├── pom.xml
 └── mvnw / mvnw.cmd              Maven Wrapper
 ```

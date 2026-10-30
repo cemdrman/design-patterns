@@ -47,6 +47,13 @@ Run a single demo (use `mvnw.cmd` on Windows):
 ./mvnw -q compile exec:java -Dexec.mainClass=designpatterns.behavioral.strategy.StrategyDemo
 ```
 
+Spring Boot examples (separate project in `spring-boot-examples/`):
+
+```bash
+./mvnw -f spring-boot-examples verify
+./mvnw -f spring-boot-examples spring-boot:run
+```
+
 You can also open the project **as a Maven project** in IntelliJ IDEA, Eclipse, VS Code or NetBeans
 and run the `main` method of any `*Demo` class.
 
@@ -57,6 +64,7 @@ categories, SOLID, how to read the diagrams, *"which pattern should I use?"* and
 
 | Guide | |
 |---|---|
+| **Patterns in Spring Boot** | Strategy, Observer, Proxy (`@Cacheable` + the self-invocation pitfall), Decorator, Chain of Responsibility and scopes in a runnable Spring Boot 4 module – [EN](docs/en/spring.md) · [TR](docs/tr/spring.md) |
 | **Anti-patterns** | God Object, Singleton abuse, Service Locator, Distributed Monolith... and the way out – [EN](docs/en/anti-patterns.md) · [TR](docs/tr/anti-patterns.md) |
 | **Refactoring to patterns** | 11 "before / after" examples: the smelly code, the pattern that fixes it, and tests proving both behave the same – [EN](docs/en/refactoring.md) · [TR](docs/tr/refactoring.md) |
 
@@ -135,6 +143,7 @@ design-patterns
 │   ├── common/                  Console (demo output), ManualClock (time travel for demos/tests)
 │   └── RunAllDemos.java         Runs every demo
 ├── src/test/java/designpatterns JUnit 5 tests, one class per pattern
+├── spring-boot-examples/        Separate Spring Boot 4 project: patterns inside Spring
 ├── pom.xml
 └── mvnw / mvnw.cmd              Maven Wrapper
 ```
