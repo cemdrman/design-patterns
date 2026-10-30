@@ -55,6 +55,10 @@ and run the `main` method of any `*Demo` class.
 Start with the introduction: [EN](docs/en/00-introduction.md) · [TR](docs/tr/00-introduction.md) —
 categories, SOLID, how to read the diagrams, *"which pattern should I use?"* and commonly confused patterns.
 
+| Guide | |
+|---|---|
+| **Refactoring to patterns** | 11 "before / after" examples: the smelly code, the pattern that fixes it, and tests proving both behave the same – [EN](docs/en/refactoring.md) · [TR](docs/tr/refactoring.md) |
+
 ### Creational
 
 | # | Pattern | Example | Docs | Code |
@@ -126,6 +130,7 @@ design-patterns
 │   │                            Memento, Observer, State, Strategy, Template Method, Visitor
 │   ├── enterprise/              Dependency Injection, Repository, Null Object, Specification, Object Pool
 │   ├── microservice/            Circuit Breaker, Saga, Transactional Outbox, CQRS
+│   ├── refactoring/             "Before" code for the refactoring guide
 │   ├── common/                  Console (demo output), ManualClock (time travel for demos/tests)
 │   └── RunAllDemos.java         Runs every demo
 ├── src/test/java/designpatterns JUnit 5 tests, one class per pattern

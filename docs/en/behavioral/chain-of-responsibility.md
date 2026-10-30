@@ -57,6 +57,8 @@ chain.approve(new ExpenseRequest("cem", "conference trip", new BigDecimal("8500"
 
 Demo: [`ChainOfResponsibilityDemo.java`](../../../src/main/java/designpatterns/behavioral/chainofresponsibility/ChainOfResponsibilityDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#chain-of-responsibility)
+
 ## Two variations
 
 1. **Stop at the first handler** (used here, classic GoF): exactly one handler processes the request.

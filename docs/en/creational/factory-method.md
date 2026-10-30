@@ -67,6 +67,8 @@ public abstract class CarFactory {
 
 Demo: [`FactoryMethodDemo.java`](../../../src/main/java/designpatterns/creational/factorymethod/FactoryMethodDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#factory-method)
+
 ## Simple Factory vs Factory Method
 
 A **simple factory** (`CarFactory.create("audi", "A4")` with a `switch` inside a static method) is

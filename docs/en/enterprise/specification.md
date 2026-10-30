@@ -55,6 +55,8 @@ catalog.findAll(cheapElectronics);
 
 Demo: [`SpecificationDemo.java`](../../../src/main/java/designpatterns/enterprise/specification/SpecificationDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#specification)
+
 ## When to use
 
 - Many combinable filtering or validation rules.

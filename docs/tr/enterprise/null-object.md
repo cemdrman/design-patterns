@@ -52,6 +52,8 @@ classDiagram
 
 Örnek: [`NullObjectDemo.java`](../../../src/main/java/designpatterns/enterprise/nullobject/NullObjectDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#null-object)
+
 ## Null Object mi `Optional` mı?
 
 | | Null Object | `Optional<T>` |

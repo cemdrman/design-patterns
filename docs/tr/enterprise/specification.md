@@ -55,6 +55,8 @@ catalog.findAll(cheapElectronics);
 
 Örnek: [`SpecificationDemo.java`](../../../src/main/java/designpatterns/enterprise/specification/SpecificationDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#specification)
+
 ## Ne zaman kullanılır?
 
 - Birleştirilebilen çok sayıda filtreleme ya da doğrulama kuralı varsa.

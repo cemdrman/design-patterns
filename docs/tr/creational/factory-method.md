@@ -66,6 +66,8 @@ public abstract class CarFactory {
 
 Örnek: [`FactoryMethodDemo.java`](../../../src/main/java/designpatterns/creational/factorymethod/FactoryMethodDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#factory-method)
+
 ## Simple Factory ile farkı
 
 **Simple factory** (static bir metot içinde `switch` ile `CarFactory.create("audi", "A4")`) bir GoF

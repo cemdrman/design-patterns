@@ -65,6 +65,8 @@ new CarDirector().constructSportsCar(manual); // same steps, different product
 
 Demo: [`BuilderDemo.java`](../../../src/main/java/designpatterns/creational/builder/BuilderDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#builder)
+
 ## Two flavours of Builder
 
 1. **GoF Builder** – director + builder interface + several builders producing different

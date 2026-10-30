@@ -65,6 +65,8 @@ service.welcome("ayse@example.com", "Ayşe");   // "Good evening, Ayşe!" – de
 
 Demo: [`DependencyInjectionDemo.java`](../../../src/main/java/designpatterns/enterprise/dependencyinjection/DependencyInjectionDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#dependency-injection)
+
 ### Types of injection
 
 | Type | How | Notes |

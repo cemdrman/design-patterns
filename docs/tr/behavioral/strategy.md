@@ -51,6 +51,8 @@ cart.setDiscount(total -> total.subtract(new BigDecimal("50"))); // anlık strat
 
 Örnek: [`StrategyDemo.java`](../../../src/main/java/designpatterns/behavioral/strategy/StrategyDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#strategy)
+
 ## Ne zaman kullanılır?
 
 - Bir algoritmanın birden fazla çeşidi çalışma zamanında seçilebilmeliyse.

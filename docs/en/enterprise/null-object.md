@@ -52,6 +52,8 @@ classDiagram
 
 Demo: [`NullObjectDemo.java`](../../../src/main/java/designpatterns/enterprise/nullobject/NullObjectDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#null-object)
+
 ## Null Object vs `Optional`
 
 | | Null Object | `Optional<T>` |

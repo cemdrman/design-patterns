@@ -49,6 +49,8 @@ market.updatePrice("THYAO", new BigDecimal("301.25"));         // everybody is n
 
 Demo: [`ObserverDemo.java`](../../../src/main/java/designpatterns/behavioral/observer/ObserverDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#observer)
+
 ## Push vs pull
 
 - **Push** (used here): the subject sends the changed data to observers.

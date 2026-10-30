@@ -65,6 +65,8 @@ new CarDirector().constructSportsCar(manual); // aynı adımlar, farklı ürün
 
 Örnek: [`BuilderDemo.java`](../../../src/main/java/designpatterns/creational/builder/BuilderDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#builder)
+
 ## Builder'ın iki çeşidi
 
 1. **GoF Builder** – director + builder arayüzü + farklı temsiller üreten birden fazla builder

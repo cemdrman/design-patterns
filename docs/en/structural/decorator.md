@@ -55,6 +55,8 @@ coffee.cost();        // 60.00 + 12.50 + 15.00 = 87.50
 
 Demo: [`DecoratorDemo.java`](../../../src/main/java/designpatterns/structural/decorator/DecoratorDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#decorator)
+
 ## When to use
 
 - You need to add responsibilities to individual objects at runtime, without affecting others.

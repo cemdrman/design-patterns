@@ -64,6 +64,8 @@ service.welcome("ayse@example.com", "Ayşe");   // "Good evening, Ayşe!" – de
 
 Örnek: [`DependencyInjectionDemo.java`](../../../src/main/java/designpatterns/enterprise/dependencyinjection/DependencyInjectionDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#dependency-injection)
+
 ### Enjeksiyon türleri
 
 | Tür | Nasıl | Not |

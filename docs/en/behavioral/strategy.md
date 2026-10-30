@@ -50,6 +50,8 @@ cart.setDiscount(total -> total.subtract(new BigDecimal("50"))); // ad-hoc strat
 
 Demo: [`StrategyDemo.java`](../../../src/main/java/designpatterns/behavioral/strategy/StrategyDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#strategy)
+
 ## When to use
 
 - Several variants of an algorithm should be selectable at runtime.

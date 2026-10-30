@@ -66,6 +66,8 @@ public void pay() {
 
 Örnek: [`StateDemo.java`](../../../src/main/java/designpatterns/behavioral/state/StateDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#state)
+
 ## Ne zaman kullanılır?
 
 - Bir nesne durumuna göre farklı davranıyor ve çok sayıda durum varsa.

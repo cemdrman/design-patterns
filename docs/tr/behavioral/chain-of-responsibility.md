@@ -57,6 +57,8 @@ chain.approve(new ExpenseRequest("cem", "conference trip", new BigDecimal("8500"
 
 Örnek: [`ChainOfResponsibilityDemo.java`](../../../src/main/java/designpatterns/behavioral/chainofresponsibility/ChainOfResponsibilityDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#chain-of-responsibility)
+
 ## İki çeşidi
 
 1. **İlk uygun handler'da dur** (burada kullanılan, klasik GoF): isteği tam olarak bir handler işler.

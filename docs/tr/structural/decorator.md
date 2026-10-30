@@ -55,6 +55,8 @@ coffee.cost();        // 60.00 + 12.50 + 15.00 = 87.50
 
 Örnek: [`DecoratorDemo.java`](../../../src/main/java/designpatterns/structural/decorator/DecoratorDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#decorator)
+
 ## Ne zaman kullanılır?
 
 - Diğer nesneleri etkilemeden, tekil nesnelere çalışma zamanında sorumluluk eklemek gerekiyorsa.

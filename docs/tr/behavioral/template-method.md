@@ -51,6 +51,8 @@ public final String export(List<Sale> sales) {          // template method
 
 Örnek: [`TemplateMethodDemo.java`](../../../src/main/java/designpatterns/behavioral/templatemethod/TemplateMethodDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#template-method)
+
 ## Hollywood İlkesi
 
 *"Bizi aramayın, biz sizi ararız."* Alt sınıf metotlarını üst sınıf çağırır, tersi değil. Alt

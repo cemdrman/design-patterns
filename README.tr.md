@@ -55,6 +55,10 @@ ilgili `*Demo` sınıfının `main` metodunu çalıştırarak da deneyebilirsini
 Önce giriş sayfasıyla başlayın: [TR](docs/tr/00-introduction.md) · [EN](docs/en/00-introduction.md) —
 kategoriler, SOLID, diyagramların okunması, *"hangi kalıbı kullanmalıyım?"* ve sık karıştırılan kalıplar.
 
+| Rehber | |
+|---|---|
+| **Kalıplara doğru refactoring** | 11 "önce / sonra" örneği: kötü kokan kod, onu düzelten kalıp ve ikisinin aynı davrandığını kanıtlayan testler – [TR](docs/tr/refactoring.md) · [EN](docs/en/refactoring.md) |
+
 ### Oluşturucu (Creational)
 
 | # | Kalıp | Örnek | Anlatım | Kod |
@@ -126,6 +130,7 @@ design-patterns
 │   │                            Memento, Observer, State, Strategy, Template Method, Visitor
 │   ├── enterprise/              Dependency Injection, Repository, Null Object, Specification, Object Pool
 │   ├── microservice/            Circuit Breaker, Saga, Transactional Outbox, CQRS
+│   ├── refactoring/             Refactoring rehberindeki "önce" kodları
 │   ├── common/                  Console (örnek çıktıları), ManualClock (örnek/testlerde zaman yolculuğu)
 │   └── RunAllDemos.java         Bütün örnekleri çalıştırır
 ├── src/test/java/designpatterns Her kalıp için bir JUnit 5 test sınıfı

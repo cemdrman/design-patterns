@@ -51,6 +51,8 @@ public final String export(List<Sale> sales) {          // the template method
 
 Demo: [`TemplateMethodDemo.java`](../../../src/main/java/designpatterns/behavioral/templatemethod/TemplateMethodDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#template-method)
+
 ## The Hollywood Principle
 
 *"Don't call us, we'll call you."* The base class calls the subclass methods, not the other way

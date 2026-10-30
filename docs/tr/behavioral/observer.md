@@ -51,6 +51,8 @@ market.updatePrice("THYAO", new BigDecimal("301.25"));         // herkes bilgile
 
 Örnek: [`ObserverDemo.java`](../../../src/main/java/designpatterns/behavioral/observer/ObserverDemo.java)
 
+Önce / sonra: [refactoring örneği](../refactoring.md#observer)
+
 ## Push ve pull
 
 - **Push** (burada kullanılan): subject değişen veriyi observer'lara gönderir.

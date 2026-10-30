@@ -65,6 +65,8 @@ public void pay() {
 
 Demo: [`StateDemo.java`](../../../src/main/java/designpatterns/behavioral/state/StateDemo.java)
 
+Before / after: [refactoring example](../refactoring.md#state)
+
 ## When to use
 
 - An object behaves differently depending on its state, and there are many states.
