@@ -1,5 +1,8 @@
 # **Design Patterns in Java**
 
+[![CI](https://github.com/cemdrman/design-patterns/actions/workflows/ci.yml/badge.svg)](https://github.com/cemdrman/design-patterns/actions/workflows/ci.yml)
+![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk)
+
 > 🇹🇷 Türkçe için: [README.tr.md](README.tr.md)
 
 ## **All 23 Gang of Four design patterns, explained in English and Turkish, implemented with Java 25.**

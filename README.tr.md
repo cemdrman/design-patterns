@@ -1,5 +1,8 @@
 # **Java ile Tasarım Kalıpları**
 
+[![CI](https://github.com/cemdrman/design-patterns/actions/workflows/ci.yml/badge.svg)](https://github.com/cemdrman/design-patterns/actions/workflows/ci.yml)
+![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk)
+
 > 🇬🇧 For English: [README.md](README.md)
 
 ## **Gang of Four'un 23 tasarım kalıbının tamamı; Türkçe ve İngilizce anlatımlarla, Java 25 ile.**
