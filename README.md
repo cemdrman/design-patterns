@@ -5,7 +5,7 @@
 
 > 🇹🇷 Türkçe için: [README.tr.md](README.tr.md)
 
-## **All 23 Gang of Four design patterns, explained in English and Turkish, implemented with Java 25.**
+## **All 23 Gang of Four design patterns plus 9 enterprise & microservice patterns, explained in English and Turkish, implemented with Java 25.**
 
 Every pattern comes with:
 
@@ -35,7 +35,7 @@ Build and run all tests:
 ./mvnw verify
 ```
 
-Run the demos of all 23 patterns one after another:
+Run the demos of all 32 patterns one after another:
 
 ```bash
 ./mvnw -q compile exec:java
@@ -93,6 +93,25 @@ categories, SOLID, how to read the diagrams, *"which pattern should I use?"* and
 | 22 | **Template Method** | CSV / JSON report export | [EN](docs/en/behavioral/template-method.md) · [TR](docs/tr/behavioral/template-method.md) | [`templatemethod`](src/main/java/designpatterns/behavioral/templatemethod) |
 | 23 | **Visitor** | Shapes: area & SVG export | [EN](docs/en/behavioral/visitor.md) · [TR](docs/tr/behavioral/visitor.md) | [`visitor`](src/main/java/designpatterns/behavioral/visitor) |
 
+### Beyond GoF: enterprise patterns
+
+| # | Pattern | Example | Docs | Code |
+|---|---|---|---|---|
+| 24 | **Dependency Injection** | Welcome service + a tiny IoC container | [EN](docs/en/enterprise/dependency-injection.md) · [TR](docs/tr/enterprise/dependency-injection.md) | [`dependencyinjection`](src/main/java/designpatterns/enterprise/dependencyinjection) |
+| 25 | **Repository** | Customer repository | [EN](docs/en/enterprise/repository.md) · [TR](docs/tr/enterprise/repository.md) | [`repository`](src/main/java/designpatterns/enterprise/repository) |
+| 26 | **Null Object** | Guest customer instead of `null` | [EN](docs/en/enterprise/null-object.md) · [TR](docs/tr/enterprise/null-object.md) | [`nullobject`](src/main/java/designpatterns/enterprise/nullobject) |
+| 27 | **Specification** | Combinable product filters | [EN](docs/en/enterprise/specification.md) · [TR](docs/tr/enterprise/specification.md) | [`specification`](src/main/java/designpatterns/enterprise/specification) |
+| 28 | **Object Pool** | 50 virtual threads sharing 3 PDF renderers | [EN](docs/en/enterprise/object-pool.md) · [TR](docs/tr/enterprise/object-pool.md) | [`objectpool`](src/main/java/designpatterns/enterprise/objectpool) |
+
+### Beyond GoF: microservice patterns
+
+| # | Pattern | Example | Docs | Code |
+|---|---|---|---|---|
+| 29 | **Circuit Breaker** | Exchange rate service with fallback | [EN](docs/en/microservice/circuit-breaker.md) · [TR](docs/tr/microservice/circuit-breaker.md) | [`circuitbreaker`](src/main/java/designpatterns/microservice/circuitbreaker) |
+| 30 | **Saga** | Order: stock → payment → shipping, with compensations | [EN](docs/en/microservice/saga.md) · [TR](docs/tr/microservice/saga.md) | [`saga`](src/main/java/designpatterns/microservice/saga) |
+| 31 | **Transactional Outbox** | Order events that survive a broker outage | [EN](docs/en/microservice/transactional-outbox.md) · [TR](docs/tr/microservice/transactional-outbox.md) | [`outbox`](src/main/java/designpatterns/microservice/outbox) |
+| 32 | **CQRS** | Product write model + read projection | [EN](docs/en/microservice/cqrs.md) · [TR](docs/tr/microservice/cqrs.md) | [`cqrs`](src/main/java/designpatterns/microservice/cqrs) |
+
 ## Project structure
 
 ```text
@@ -105,7 +124,9 @@ design-patterns
 │   ├── structural/              Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
 │   ├── behavioral/              Chain of Responsibility, Command, Interpreter, Iterator, Mediator,
 │   │                            Memento, Observer, State, Strategy, Template Method, Visitor
-│   ├── common/Console.java      Small helper for consistent demo output
+│   ├── enterprise/              Dependency Injection, Repository, Null Object, Specification, Object Pool
+│   ├── microservice/            Circuit Breaker, Saga, Transactional Outbox, CQRS
+│   ├── common/                  Console (demo output), ManualClock (time travel for demos/tests)
 │   └── RunAllDemos.java         Runs every demo
 ├── src/test/java/designpatterns JUnit 5 tests, one class per pattern
 ├── pom.xml

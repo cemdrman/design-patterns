@@ -23,6 +23,15 @@ repository" explains a whole design in a few words.
 | **Structural** | *How are objects composed into bigger structures?* | [Adapter](structural/adapter.md), [Bridge](structural/bridge.md), [Composite](structural/composite.md), [Decorator](structural/decorator.md), [Facade](structural/facade.md), [Flyweight](structural/flyweight.md), [Proxy](structural/proxy.md) |
 | **Behavioral** | *How do objects communicate and share responsibilities?* | [Chain of Responsibility](behavioral/chain-of-responsibility.md), [Command](behavioral/command.md), [Interpreter](behavioral/interpreter.md), [Iterator](behavioral/iterator.md), [Mediator](behavioral/mediator.md), [Memento](behavioral/memento.md), [Observer](behavioral/observer.md), [State](behavioral/state.md), [Strategy](behavioral/strategy.md), [Template Method](behavioral/template-method.md), [Visitor](behavioral/visitor.md) |
 
+## Beyond the Gang of Four
+
+The GoF book is from 1994. Since then other patterns became just as common in everyday Java work:
+
+| Group | Patterns |
+|---|---|
+| **Enterprise** | [Dependency Injection](enterprise/dependency-injection.md), [Repository](enterprise/repository.md), [Null Object](enterprise/null-object.md), [Specification](enterprise/specification.md), [Object Pool](enterprise/object-pool.md) |
+| **Microservice** | [Circuit Breaker](microservice/circuit-breaker.md), [Saga](microservice/saga.md), [Transactional Outbox](microservice/transactional-outbox.md), [CQRS](microservice/cqrs.md) |
+
 ## Principles behind the patterns
 
 Almost every pattern applies a few basic principles:

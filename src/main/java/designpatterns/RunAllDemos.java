@@ -16,6 +16,15 @@ import designpatterns.creational.builder.BuilderDemo;
 import designpatterns.creational.factorymethod.FactoryMethodDemo;
 import designpatterns.creational.prototype.PrototypeDemo;
 import designpatterns.creational.singleton.SingletonDemo;
+import designpatterns.enterprise.dependencyinjection.DependencyInjectionDemo;
+import designpatterns.enterprise.nullobject.NullObjectDemo;
+import designpatterns.enterprise.objectpool.ObjectPoolDemo;
+import designpatterns.enterprise.repository.RepositoryDemo;
+import designpatterns.enterprise.specification.SpecificationDemo;
+import designpatterns.microservice.circuitbreaker.CircuitBreakerDemo;
+import designpatterns.microservice.cqrs.CqrsDemo;
+import designpatterns.microservice.outbox.OutboxDemo;
+import designpatterns.microservice.saga.SagaDemo;
 import designpatterns.structural.adapter.AdapterDemo;
 import designpatterns.structural.bridge.BridgeDemo;
 import designpatterns.structural.composite.CompositeDemo;
@@ -61,5 +70,18 @@ public class RunAllDemos {
         StrategyDemo.main(none);
         TemplateMethodDemo.main(none);
         VisitorDemo.main(none);
+
+        // Enterprise
+        DependencyInjectionDemo.main(none);
+        RepositoryDemo.main(none);
+        NullObjectDemo.main(none);
+        SpecificationDemo.main(none);
+        ObjectPoolDemo.main(none);
+
+        // Microservice
+        CircuitBreakerDemo.main(none);
+        SagaDemo.main(none);
+        OutboxDemo.main(none);
+        CqrsDemo.main(none);
     }
 }

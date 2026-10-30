@@ -5,7 +5,7 @@
 
 > 🇬🇧 For English: [README.md](README.md)
 
-## **Gang of Four'un 23 tasarım kalıbının tamamı; Türkçe ve İngilizce anlatımlarla, Java 25 ile.**
+## **Gang of Four'un 23 tasarım kalıbının tamamı ve 9 kurumsal / mikroservis kalıbı; Türkçe ve İngilizce anlatımlarla, Java 25 ile.**
 
 Bu proje Java için Türkçe kaynak oluşturmak amacıyla oluşturulmuştur. Her kalıp için:
 
@@ -35,7 +35,7 @@ Derleme ve testler:
 ./mvnw verify
 ```
 
-23 kalıbın örneklerini art arda çalıştırmak:
+32 kalıbın örneklerini art arda çalıştırmak:
 
 ```bash
 ./mvnw -q compile exec:java
@@ -93,6 +93,25 @@ kategoriler, SOLID, diyagramların okunması, *"hangi kalıbı kullanmalıyım?"
 | 22 | **Template Method** (Şablon Metot) | CSV / JSON rapor çıktısı | [TR](docs/tr/behavioral/template-method.md) · [EN](docs/en/behavioral/template-method.md) | [`templatemethod`](src/main/java/designpatterns/behavioral/templatemethod) |
 | 23 | **Visitor** (Ziyaretçi) | Şekiller: alan ve SVG çıktısı | [TR](docs/tr/behavioral/visitor.md) · [EN](docs/en/behavioral/visitor.md) | [`visitor`](src/main/java/designpatterns/behavioral/visitor) |
 
+### GoF'un ötesi: kurumsal kalıplar
+
+| # | Kalıp | Örnek | Anlatım | Kod |
+|---|---|---|---|---|
+| 24 | **Dependency Injection** (Bağımlılık Enjeksiyonu) | Karşılama servisi + küçük bir IoC container | [TR](docs/tr/enterprise/dependency-injection.md) · [EN](docs/en/enterprise/dependency-injection.md) | [`dependencyinjection`](src/main/java/designpatterns/enterprise/dependencyinjection) |
+| 25 | **Repository** (Depo) | Müşteri repository'si | [TR](docs/tr/enterprise/repository.md) · [EN](docs/en/enterprise/repository.md) | [`repository`](src/main/java/designpatterns/enterprise/repository) |
+| 26 | **Null Object** (Boş Nesne) | `null` yerine misafir müşteri | [TR](docs/tr/enterprise/null-object.md) · [EN](docs/en/enterprise/null-object.md) | [`nullobject`](src/main/java/designpatterns/enterprise/nullobject) |
+| 27 | **Specification** (Şartname) | Birleştirilebilir ürün filtreleri | [TR](docs/tr/enterprise/specification.md) · [EN](docs/en/enterprise/specification.md) | [`specification`](src/main/java/designpatterns/enterprise/specification) |
+| 28 | **Object Pool** (Nesne Havuzu) | 3 PDF renderer'ı paylaşan 50 virtual thread | [TR](docs/tr/enterprise/object-pool.md) · [EN](docs/en/enterprise/object-pool.md) | [`objectpool`](src/main/java/designpatterns/enterprise/objectpool) |
+
+### GoF'un ötesi: mikroservis kalıpları
+
+| # | Kalıp | Örnek | Anlatım | Kod |
+|---|---|---|---|---|
+| 29 | **Circuit Breaker** (Devre Kesici) | Fallback'li döviz kuru servisi | [TR](docs/tr/microservice/circuit-breaker.md) · [EN](docs/en/microservice/circuit-breaker.md) | [`circuitbreaker`](src/main/java/designpatterns/microservice/circuitbreaker) |
+| 30 | **Saga** | Sipariş: stok → ödeme → kargo, telafilerle | [TR](docs/tr/microservice/saga.md) · [EN](docs/en/microservice/saga.md) | [`saga`](src/main/java/designpatterns/microservice/saga) |
+| 31 | **Transactional Outbox** | Broker çökse de kaybolmayan sipariş olayları | [TR](docs/tr/microservice/transactional-outbox.md) · [EN](docs/en/microservice/transactional-outbox.md) | [`outbox`](src/main/java/designpatterns/microservice/outbox) |
+| 32 | **CQRS** | Ürün yazma modeli + okuma projeksiyonu | [TR](docs/tr/microservice/cqrs.md) · [EN](docs/en/microservice/cqrs.md) | [`cqrs`](src/main/java/designpatterns/microservice/cqrs) |
+
 ## Proje yapısı
 
 ```text
@@ -105,7 +124,9 @@ design-patterns
 │   ├── structural/              Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
 │   ├── behavioral/              Chain of Responsibility, Command, Interpreter, Iterator, Mediator,
 │   │                            Memento, Observer, State, Strategy, Template Method, Visitor
-│   ├── common/Console.java      Örnek çıktılarını düzenleyen küçük yardımcı sınıf
+│   ├── enterprise/              Dependency Injection, Repository, Null Object, Specification, Object Pool
+│   ├── microservice/            Circuit Breaker, Saga, Transactional Outbox, CQRS
+│   ├── common/                  Console (örnek çıktıları), ManualClock (örnek/testlerde zaman yolculuğu)
 │   └── RunAllDemos.java         Bütün örnekleri çalıştırır
 ├── src/test/java/designpatterns Her kalıp için bir JUnit 5 test sınıfı
 ├── pom.xml

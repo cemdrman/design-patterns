@@ -24,6 +24,15 @@ decorator koyalım" cümlesi bütün bir tasarımı birkaç kelimeyle anlatır.
 | **Yapısal (Structural)** | *Nesneler daha büyük yapılar halinde nasıl birleştirilir?* | [Adapter](structural/adapter.md), [Bridge](structural/bridge.md), [Composite](structural/composite.md), [Decorator](structural/decorator.md), [Facade](structural/facade.md), [Flyweight](structural/flyweight.md), [Proxy](structural/proxy.md) |
 | **Davranışsal (Behavioral)** | *Nesneler nasıl iletişim kurar ve sorumlulukları nasıl paylaşır?* | [Chain of Responsibility](behavioral/chain-of-responsibility.md), [Command](behavioral/command.md), [Interpreter](behavioral/interpreter.md), [Iterator](behavioral/iterator.md), [Mediator](behavioral/mediator.md), [Memento](behavioral/memento.md), [Observer](behavioral/observer.md), [State](behavioral/state.md), [Strategy](behavioral/strategy.md), [Template Method](behavioral/template-method.md), [Visitor](behavioral/visitor.md) |
 
+## Gang of Four'un ötesi
+
+GoF kitabı 1994 tarihli. O zamandan beri başka kalıplar da günlük Java işlerinde en az onlar kadar yaygınlaştı:
+
+| Grup | Kalıplar |
+|---|---|
+| **Kurumsal (Enterprise)** | [Dependency Injection](enterprise/dependency-injection.md), [Repository](enterprise/repository.md), [Null Object](enterprise/null-object.md), [Specification](enterprise/specification.md), [Object Pool](enterprise/object-pool.md) |
+| **Mikroservis** | [Circuit Breaker](microservice/circuit-breaker.md), [Saga](microservice/saga.md), [Transactional Outbox](microservice/transactional-outbox.md), [CQRS](microservice/cqrs.md) |
+
 ## Kalıpların arkasındaki ilkeler
 
 Neredeyse her kalıp birkaç temel ilkeyi uygular:
