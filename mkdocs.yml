@@ -1,0 +1,162 @@
+site_name: Design Patterns in Java
+site_description: All 23 GoF design patterns plus enterprise and microservice patterns in Java 25, explained in English and Turkish
+site_author: Cem Dırman
+site_url: https://cemdrman.github.io/design-patterns/
+repo_url: https://github.com/cemdrman/design-patterns
+repo_name: cemdrman/design-patterns
+edit_uri: edit/master/docs/
+copyright: Copyright &copy; 2016-2026 Cem Dırman
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+hooks:
+  - mkdocs/hooks.py
+
+plugins:
+  - search:
+      lang: [en, tr]
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
+nav:
+  - Home: index.md
+  - English:
+      - Introduction: en/00-introduction.md
+      - Creational:
+          - Singleton: en/creational/singleton.md
+          - Factory Method: en/creational/factory-method.md
+          - Abstract Factory: en/creational/abstract-factory.md
+          - Builder: en/creational/builder.md
+          - Prototype: en/creational/prototype.md
+      - Structural:
+          - Adapter: en/structural/adapter.md
+          - Bridge: en/structural/bridge.md
+          - Composite: en/structural/composite.md
+          - Decorator: en/structural/decorator.md
+          - Facade: en/structural/facade.md
+          - Flyweight: en/structural/flyweight.md
+          - Proxy: en/structural/proxy.md
+      - Behavioral:
+          - Chain of Responsibility: en/behavioral/chain-of-responsibility.md
+          - Command: en/behavioral/command.md
+          - Interpreter: en/behavioral/interpreter.md
+          - Iterator: en/behavioral/iterator.md
+          - Mediator: en/behavioral/mediator.md
+          - Memento: en/behavioral/memento.md
+          - Observer: en/behavioral/observer.md
+          - State: en/behavioral/state.md
+          - Strategy: en/behavioral/strategy.md
+          - Template Method: en/behavioral/template-method.md
+          - Visitor: en/behavioral/visitor.md
+      - Enterprise:
+          - Dependency Injection: en/enterprise/dependency-injection.md
+          - Repository: en/enterprise/repository.md
+          - Null Object: en/enterprise/null-object.md
+          - Specification: en/enterprise/specification.md
+          - Object Pool: en/enterprise/object-pool.md
+      - Microservice:
+          - Circuit Breaker: en/microservice/circuit-breaker.md
+          - Saga: en/microservice/saga.md
+          - Transactional Outbox: en/microservice/transactional-outbox.md
+          - CQRS: en/microservice/cqrs.md
+      - Guides:
+          - "Refactoring to patterns": en/refactoring.md
+          - "Anti-patterns": en/anti-patterns.md
+          - "Patterns in Spring Boot": en/spring.md
+          - "Interview questions & exercises": en/interview-questions.md
+  - Türkçe:
+      - Giriş: tr/00-introduction.md
+      - Oluşturucu:
+          - Singleton: tr/creational/singleton.md
+          - Factory Method: tr/creational/factory-method.md
+          - Abstract Factory: tr/creational/abstract-factory.md
+          - Builder: tr/creational/builder.md
+          - Prototype: tr/creational/prototype.md
+      - Yapısal:
+          - Adapter: tr/structural/adapter.md
+          - Bridge: tr/structural/bridge.md
+          - Composite: tr/structural/composite.md
+          - Decorator: tr/structural/decorator.md
+          - Facade: tr/structural/facade.md
+          - Flyweight: tr/structural/flyweight.md
+          - Proxy: tr/structural/proxy.md
+      - Davranışsal:
+          - Chain of Responsibility: tr/behavioral/chain-of-responsibility.md
+          - Command: tr/behavioral/command.md
+          - Interpreter: tr/behavioral/interpreter.md
+          - Iterator: tr/behavioral/iterator.md
+          - Mediator: tr/behavioral/mediator.md
+          - Memento: tr/behavioral/memento.md
+          - Observer: tr/behavioral/observer.md
+          - State: tr/behavioral/state.md
+          - Strategy: tr/behavioral/strategy.md
+          - Template Method: tr/behavioral/template-method.md
+          - Visitor: tr/behavioral/visitor.md
+      - Kurumsal:
+          - Dependency Injection: tr/enterprise/dependency-injection.md
+          - Repository: tr/enterprise/repository.md
+          - Null Object: tr/enterprise/null-object.md
+          - Specification: tr/enterprise/specification.md
+          - Object Pool: tr/enterprise/object-pool.md
+      - Mikroservis:
+          - Circuit Breaker: tr/microservice/circuit-breaker.md
+          - Saga: tr/microservice/saga.md
+          - Transactional Outbox: tr/microservice/transactional-outbox.md
+          - CQRS: tr/microservice/cqrs.md
+      - Rehberler:
+          - "Kalıplara doğru refactoring": tr/refactoring.md
+          - "Anti-pattern'ler": tr/anti-patterns.md
+          - "Spring Boot'ta kalıplar": tr/spring.md
+          - "Mülakat soruları ve alıştırmalar": tr/interview-questions.md

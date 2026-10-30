@@ -2,8 +2,9 @@
 
 [![CI](https://github.com/cemdrman/design-patterns/actions/workflows/ci.yml/badge.svg)](https://github.com/cemdrman/design-patterns/actions/workflows/ci.yml)
 ![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk)
+[![Docs](https://img.shields.io/badge/docs-cemdrman.github.io%2Fdesign--patterns-blue)](https://cemdrman.github.io/design-patterns/)
 
-> 🇬🇧 For English: [README.md](README.md)
+> 🇬🇧 For English: [README.md](README.md) · 📖 Anlatımları web sitesi olarak okuyun: **[cemdrman.github.io/design-patterns](https://cemdrman.github.io/design-patterns/)**
 
 ## **Gang of Four'un 23 tasarım kalıbının tamamı ve 9 kurumsal / mikroservis kalıbı; Türkçe ve İngilizce anlatımlarla, Java 25 ile.**
 
@@ -56,6 +57,13 @@ Spring Boot örnekleri (`spring-boot-examples/` altında ayrı proje):
 
 Örnekleri IntelliJ IDEA, Eclipse, VS Code veya NetBeans'te projeyi **Maven projesi olarak açıp**
 ilgili `*Demo` sınıfının `main` metodunu çalıştırarak da deneyebilirsiniz.
+
+Doküman sitesini yerelde önizlemek:
+
+```bash
+pip install -r mkdocs/requirements.txt
+mkdocs serve
+```
 
 ## İçindekiler
 
@@ -145,6 +153,7 @@ design-patterns
 │   └── RunAllDemos.java         Bütün örnekleri çalıştırır
 ├── src/test/java/designpatterns Her kalıp için bir JUnit 5 test sınıfı
 ├── spring-boot-examples/        Ayrı Spring Boot 4 projesi: Spring'in içindeki kalıplar
+├── mkdocs.yml, mkdocs/          Doküman sitesi (MkDocs Material → GitHub Pages)
 ├── pom.xml
 └── mvnw / mvnw.cmd              Maven Wrapper
 ```
@@ -180,5 +189,7 @@ kalıbı nerede sadeleştirdiği (örneğin lambda'larla Strategy, sealed tipler
 Bu repo 2016'da Türkçe yazılmış beş oluşturucu kalıpla başladı. 2026'da baştan yazıldı: 23 GoF
 kalıbının tamamı, Maven, Java 25, testler ve iki dilli dokümantasyon. İlk örnekler (araba fabrikası,
 araba siparişi builder'ı, adres prototipi, bağlantı havuzu singleton'ı) korunarak modernleştirildi.
+Ardından kurumsal ve mikroservis kalıpları, bir Spring Boot modülü, refactoring rehberi, anti-pattern'ler,
+mülakat soruları ve bir doküman sitesi eklendi.
 
 ### **Projeye katkı sağlamak isteyenler iletişime geçebilir.**

@@ -2,8 +2,9 @@
 
 [![CI](https://github.com/cemdrman/design-patterns/actions/workflows/ci.yml/badge.svg)](https://github.com/cemdrman/design-patterns/actions/workflows/ci.yml)
 ![Java](https://img.shields.io/badge/Java-25-orange?logo=openjdk)
+[![Docs](https://img.shields.io/badge/docs-cemdrman.github.io%2Fdesign--patterns-blue)](https://cemdrman.github.io/design-patterns/)
 
-> 🇹🇷 Türkçe için: [README.tr.md](README.tr.md)
+> 🇹🇷 Türkçe için: [README.tr.md](README.tr.md) · 📖 Read the docs as a website: **[cemdrman.github.io/design-patterns](https://cemdrman.github.io/design-patterns/)**
 
 ## **All 23 Gang of Four design patterns plus 9 enterprise & microservice patterns, explained in English and Turkish, implemented with Java 25.**
 
@@ -56,6 +57,13 @@ Spring Boot examples (separate project in `spring-boot-examples/`):
 
 You can also open the project **as a Maven project** in IntelliJ IDEA, Eclipse, VS Code or NetBeans
 and run the `main` method of any `*Demo` class.
+
+Preview the documentation website locally:
+
+```bash
+pip install -r mkdocs/requirements.txt
+mkdocs serve
+```
 
 ## Contents
 
@@ -145,6 +153,7 @@ design-patterns
 │   └── RunAllDemos.java         Runs every demo
 ├── src/test/java/designpatterns JUnit 5 tests, one class per pattern
 ├── spring-boot-examples/        Separate Spring Boot 4 project: patterns inside Spring
+├── mkdocs.yml, mkdocs/          Documentation website (MkDocs Material → GitHub Pages)
 ├── pom.xml
 └── mvnw / mvnw.cmd              Maven Wrapper
 ```
@@ -180,6 +189,7 @@ simpler (e.g. Strategy with lambdas, Visitor with sealed types).
 This repository started in 2016 with five creational patterns written in Turkish. In 2026 it was
 rewritten from scratch: all 23 GoF patterns, Maven, Java 25, tests and bilingual documentation.
 The original examples (car factory, car order builder, address prototype, connection pool singleton)
-were kept and modernized.
+were kept and modernized. Later, enterprise and microservice patterns, a Spring Boot module, a
+refactoring guide, anti-patterns, interview questions and a documentation website were added.
 
 ### **Feel free to get in touch if you want to contribute.**

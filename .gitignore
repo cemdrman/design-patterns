@@ -17,3 +17,6 @@ nb-configuration.xml
 # İşletim sistemi
 .DS_Store
 Thumbs.db
+
+# MkDocs
+site/
